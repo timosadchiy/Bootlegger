@@ -1,0 +1,23 @@
+{
+  "name": "Bootlegger",
+  "version": "0.0.1",
+  "homepage": "https://github.com/Brenntron/Bootlegger",
+  "description": "Capstone project for Nashville Software School.",
+  "main": "index.js",
+  "authors": [
+    "Brennan \"Brenntron\" Willingham brennanw22@gmail.com"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "ember": "~1.10.0",
+    "skeleton-scss": "*"
+  }
+}

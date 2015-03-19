@@ -1,0 +1,27 @@
+{
+  "name": "Bootlegger",
+  "version": "0.0.1",
+  "description": "Capstone project for Nashville Software School.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Brenntron/Bootlegger.git"
+  },
+  "author": "Brennan \"Brenntron\" Willingham brennanw22@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Brenntron/Bootlegger/issues"
+  },
+  "homepage": "https://github.com/Brenntron/Bootlegger",
+  "devDependencies": {
+    "autoprefixer-core": "^5.1.7",
+    "del": "^1.1.1",
+    "gulp": "^3.8.11",
+    "gulp-haml": "^0.1.5",
+    "gulp-postcss": "^4.0.3",
+    "gulp-sass": "^1.3.3"
+  }
+}
