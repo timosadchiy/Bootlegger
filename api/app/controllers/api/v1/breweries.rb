@@ -5,7 +5,7 @@ module API
 
       resource :breweries do
         desc "Return all breweries"
-        get "", root: :contacts do
+        get "", root: :breweries do
           Brewery.all
         end
 
