@@ -1,0 +1,12 @@
+<ul>
+  {{#each contact in model}}
+    <li>
+      {{#link-to 'brewery' brewery}}
+        {{brewery.name}}
+        {{brewery.address}}
+      {{/link-to}}
+    </li>
+  {{else}}
+    <li>No breweries found.</li>
+  {{/each}}
+</ul>
